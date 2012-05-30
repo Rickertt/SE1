@@ -1,0 +1,8 @@
+Commit
+	git init
+	git add .
+	git commit -m "message"
+	git push --all
+
+Update
+	git pull
