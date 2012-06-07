@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="aa899432-291c-42ed-aee9-4de353ffde45" name="Aart@AART-PC 2012-05-31 15:21:32" runUser="Aart-PC\Aart" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2796fbf6-320d-4499-bb4d-3965ddba404f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Aart_AART-PC 2012-05-31 15_21_32">
+      <DeploymentItem filename="C:\Users\Aart\Dropbox\C#\GitHubTestApp\GitHubTestApp\bin\Debug\GitHubTestApp.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-31T15:21:32.5842191+02:00" queuing="2012-05-31T15:21:34.2913168+02:00" start="2012-05-31T15:21:34.4423254+02:00" finish="2012-05-31T15:21:37.1904826+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="woordOmdraaienTest" storage="c:\users\aart\dropbox\c#\githubtestapp\testproject1\bin\debug\testproject1.dll" id="4bfbda5d-1f2b-c7e8-dce6-019f769c6e0d">
+      <Execution id="2cc91a91-ddda-4cf2-a6c5-30c0fa687f5f" />
+      <TestMethod codeBase="C:/Users/Aart/Dropbox/C#/GitHubTestApp/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProgramTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="woordOmdraaienTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4bfbda5d-1f2b-c7e8-dce6-019f769c6e0d" executionId="2cc91a91-ddda-4cf2-a6c5-30c0fa687f5f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2cc91a91-ddda-4cf2-a6c5-30c0fa687f5f" testId="4bfbda5d-1f2b-c7e8-dce6-019f769c6e0d" testName="woordOmdraaienTest" computerName="AART-PC" duration="00:00:00.0462030" startTime="2012-05-31T15:21:34.5383309+02:00" endTime="2012-05-31T15:21:36.6874538+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2cc91a91-ddda-4cf2-a6c5-30c0fa687f5f">
+    </UnitTestResult>
+  </Results>
+</TestRun>

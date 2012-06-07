@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9a350358-6489-4347-a2b3-e89457d93078" name="Aart@AART-PC 2012-05-31 16:15:48" runUser="Aart-PC\Aart" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2796fbf6-320d-4499-bb4d-3965ddba404f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Aart_AART-PC 2012-05-31 16_15_48">
+      <DeploymentItem filename="C:\Users\Aart\Dropbox\C#\GitHubTestApp\GitHubTestApp\bin\Debug\GitHubTestApp.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-31T16:15:48.1454266+02:00" queuing="2012-05-31T16:15:49.8975268+02:00" start="2012-05-31T16:15:50.0665365+02:00" finish="2012-05-31T16:15:51.8376378+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="9" executed="9" passed="9" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="woordOmdraaienTest" storage="c:\users\aart\dropbox\c#\githubtestapp\testproject1\bin\debug\testproject1.dll" id="4bfbda5d-1f2b-c7e8-dce6-019f769c6e0d">
+      <Execution id="7e8b92b1-37e7-4b95-87c5-3acb66f12a5f" />
+      <TestMethod codeBase="C:/Users/Aart/Dropbox/C#/GitHubTestApp/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProgramTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="woordOmdraaienTest" />
+    </UnitTest>
+    <UnitTest name="aftrekkenTest" storage="c:\users\aart\dropbox\c#\githubtestapp\testproject1\bin\debug\testproject1.dll" id="f340e09c-2b81-0bfe-2c18-287e0ed3a4b9">
+      <Execution id="a9ae7fbb-024c-4974-a36f-1878839b1591" />
+      <TestMethod codeBase="C:/Users/Aart/Dropbox/C#/GitHubTestApp/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProgramTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="aftrekkenTest" />
+    </UnitTest>
+    <UnitTest name="aantalLettersInWoordTest" storage="c:\users\aart\dropbox\c#\githubtestapp\testproject1\bin\debug\testproject1.dll" id="7df9ac2b-62e6-a3c4-d7d5-43cbe5b44e3a">
+      <Execution id="9fa361e4-b478-4767-8451-413b3271826c" />
+      <TestMethod codeBase="C:/Users/Aart/Dropbox/C#/GitHubTestApp/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProgramTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="aantalLettersInWoordTest" />
+    </UnitTest>
+    <UnitTest name="aantalWoordenInZinTest" storage="c:\users\aart\dropbox\c#\githubtestapp\testproject1\bin\debug\testproject1.dll" id="5119c9e5-9c8a-0315-7ccd-fd3f6f49696c">
+      <Execution id="e51ddd77-db45-43e7-a9f2-41bf83a98868" />
+      <TestMethod codeBase="C:/Users/Aart/Dropbox/C#/GitHubTestApp/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProgramTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="aantalWoordenInZinTest" />
+    </UnitTest>
+    <UnitTest name="machtsverheffenTest" storage="c:\users\aart\dropbox\c#\githubtestapp\testproject1\bin\debug\testproject1.dll" id="b256ebc2-f1e4-08a8-8066-bdee5b528511">
+      <Execution id="357df0b8-a7d6-44ef-8cfc-536298033fb4" />
+      <TestMethod codeBase="C:/Users/Aart/Dropbox/C#/GitHubTestApp/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProgramTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="machtsverheffenTest" />
+    </UnitTest>
+    <UnitTest name="somDerCijfersTest" storage="c:\users\aart\dropbox\c#\githubtestapp\testproject1\bin\debug\testproject1.dll" id="3b59c91d-63a3-ba64-366d-07004b8d8398">
+      <Execution id="bd69daf1-9817-491a-9bcb-b78b7b1e9c72" />
+      <TestMethod codeBase="C:/Users/Aart/Dropbox/C#/GitHubTestApp/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProgramTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="somDerCijfersTest" />
+    </UnitTest>
+    <UnitTest name="optellenTest" storage="c:\users\aart\dropbox\c#\githubtestapp\testproject1\bin\debug\testproject1.dll" id="4f1a172c-d2e4-b386-cda5-bf278890f95b">
+      <Execution id="e68073b7-f056-469c-aa36-e8b7bbefdc2d" />
+      <TestMethod codeBase="C:/Users/Aart/Dropbox/C#/GitHubTestApp/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProgramTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="optellenTest" />
+    </UnitTest>
+    <UnitTest name="kwadraterenTest" storage="c:\users\aart\dropbox\c#\githubtestapp\testproject1\bin\debug\testproject1.dll" id="34b6cb31-bef8-0d14-da99-76b7b01f4739">
+      <Execution id="d9889fad-e403-43c6-b36e-c4e9334e61c2" />
+      <TestMethod codeBase="C:/Users/Aart/Dropbox/C#/GitHubTestApp/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProgramTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="kwadraterenTest" />
+    </UnitTest>
+    <UnitTest name="vermenigvuldigenTest" storage="c:\users\aart\dropbox\c#\githubtestapp\testproject1\bin\debug\testproject1.dll" id="573effb8-d350-8600-0c71-3a2a438cd7b7">
+      <Execution id="6a21549a-325e-40e8-a1b7-09386cae2470" />
+      <TestMethod codeBase="C:/Users/Aart/Dropbox/C#/GitHubTestApp/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProgramTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="vermenigvuldigenTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4bfbda5d-1f2b-c7e8-dce6-019f769c6e0d" executionId="7e8b92b1-37e7-4b95-87c5-3acb66f12a5f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b59c91d-63a3-ba64-366d-07004b8d8398" executionId="bd69daf1-9817-491a-9bcb-b78b7b1e9c72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="573effb8-d350-8600-0c71-3a2a438cd7b7" executionId="6a21549a-325e-40e8-a1b7-09386cae2470" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f1a172c-d2e4-b386-cda5-bf278890f95b" executionId="e68073b7-f056-469c-aa36-e8b7bbefdc2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34b6cb31-bef8-0d14-da99-76b7b01f4739" executionId="d9889fad-e403-43c6-b36e-c4e9334e61c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f340e09c-2b81-0bfe-2c18-287e0ed3a4b9" executionId="a9ae7fbb-024c-4974-a36f-1878839b1591" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b256ebc2-f1e4-08a8-8066-bdee5b528511" executionId="357df0b8-a7d6-44ef-8cfc-536298033fb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7df9ac2b-62e6-a3c4-d7d5-43cbe5b44e3a" executionId="9fa361e4-b478-4767-8451-413b3271826c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5119c9e5-9c8a-0315-7ccd-fd3f6f49696c" executionId="e51ddd77-db45-43e7-a9f2-41bf83a98868" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7e8b92b1-37e7-4b95-87c5-3acb66f12a5f" testId="4bfbda5d-1f2b-c7e8-dce6-019f769c6e0d" testName="woordOmdraaienTest" computerName="AART-PC" duration="00:00:00.0326679" startTime="2012-05-31T16:15:50.1385406+02:00" endTime="2012-05-31T16:15:51.5776229+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e8b92b1-37e7-4b95-87c5-3acb66f12a5f">
+    </UnitTestResult>
+    <UnitTestResult executionId="bd69daf1-9817-491a-9bcb-b78b7b1e9c72" testId="3b59c91d-63a3-ba64-366d-07004b8d8398" testName="somDerCijfersTest" computerName="AART-PC" duration="00:00:00.0017347" startTime="2012-05-31T16:15:51.5916237+02:00" endTime="2012-05-31T16:15:51.6036244+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd69daf1-9817-491a-9bcb-b78b7b1e9c72">
+    </UnitTestResult>
+    <UnitTestResult executionId="6a21549a-325e-40e8-a1b7-09386cae2470" testId="573effb8-d350-8600-0c71-3a2a438cd7b7" testName="vermenigvuldigenTest" computerName="AART-PC" duration="00:00:00.0004836" startTime="2012-05-31T16:15:51.6166251+02:00" endTime="2012-05-31T16:15:51.6256256+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a21549a-325e-40e8-a1b7-09386cae2470">
+    </UnitTestResult>
+    <UnitTestResult executionId="e68073b7-f056-469c-aa36-e8b7bbefdc2d" testId="4f1a172c-d2e4-b386-cda5-bf278890f95b" testName="optellenTest" computerName="AART-PC" duration="00:00:00.0006005" startTime="2012-05-31T16:15:51.6356262+02:00" endTime="2012-05-31T16:15:51.6456268+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e68073b7-f056-469c-aa36-e8b7bbefdc2d">
+    </UnitTestResult>
+    <UnitTestResult executionId="d9889fad-e403-43c6-b36e-c4e9334e61c2" testId="34b6cb31-bef8-0d14-da99-76b7b01f4739" testName="kwadraterenTest" computerName="AART-PC" duration="00:00:00.0005524" startTime="2012-05-31T16:15:51.6546273+02:00" endTime="2012-05-31T16:15:51.6656279+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9889fad-e403-43c6-b36e-c4e9334e61c2">
+    </UnitTestResult>
+    <UnitTestResult executionId="a9ae7fbb-024c-4974-a36f-1878839b1591" testId="f340e09c-2b81-0bfe-2c18-287e0ed3a4b9" testName="aftrekkenTest" computerName="AART-PC" duration="00:00:00.0004677" startTime="2012-05-31T16:15:51.6816289+02:00" endTime="2012-05-31T16:15:51.6906294+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9ae7fbb-024c-4974-a36f-1878839b1591">
+    </UnitTestResult>
+    <UnitTestResult executionId="357df0b8-a7d6-44ef-8cfc-536298033fb4" testId="b256ebc2-f1e4-08a8-8066-bdee5b528511" testName="machtsverheffenTest" computerName="AART-PC" duration="00:00:00.0005519" startTime="2012-05-31T16:15:51.7066303+02:00" endTime="2012-05-31T16:15:51.7166309+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="357df0b8-a7d6-44ef-8cfc-536298033fb4">
+    </UnitTestResult>
+    <UnitTestResult executionId="9fa361e4-b478-4767-8451-413b3271826c" testId="7df9ac2b-62e6-a3c4-d7d5-43cbe5b44e3a" testName="aantalLettersInWoordTest" computerName="AART-PC" duration="00:00:00.0006303" startTime="2012-05-31T16:15:51.7286315+02:00" endTime="2012-05-31T16:15:51.7376321+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9fa361e4-b478-4767-8451-413b3271826c">
+    </UnitTestResult>
+    <UnitTestResult executionId="e51ddd77-db45-43e7-a9f2-41bf83a98868" testId="5119c9e5-9c8a-0315-7ccd-fd3f6f49696c" testName="aantalWoordenInZinTest" computerName="AART-PC" duration="00:00:00.0006318" startTime="2012-05-31T16:15:51.7476326+02:00" endTime="2012-05-31T16:15:51.7556331+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e51ddd77-db45-43e7-a9f2-41bf83a98868">
+    </UnitTestResult>
+  </Results>
+</TestRun>
